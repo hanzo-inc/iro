@@ -1,0 +1,12 @@
+# hanzo-inc/iro — read by the hanzoai/ci reusable (.hanzo/workflows/cicd.yml)
+# and by platform.hanzo.ai.
+#
+# Iro is Hanzo's image generation & editing SKU (`iro`, `iro-1`), served by
+# hanzo-inc/zen and declared in hanzo/universe charts/app/files/zen/catalog.yaml.
+test:
+  - name: validate
+    run: |
+      set -e
+      test -s README.md
+      test -s LLM.md
+      bash -n examples/generate.sh
