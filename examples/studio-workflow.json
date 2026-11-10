@@ -1,0 +1,14 @@
+{
+  "name": "Iro (\u8272) Studio Workflow",
+  "description": "Hanzo Creative AI Image & Hyperframe Model (`iro` / `/v1/images/generations` & `/v1/frame`)",
+  "steps": [
+    {
+      "id": "iro-step-1",
+      "kind": "image.generate",
+      "model": "iro",
+      "input": {
+        "prompt": "Minimalist architectural studio with warm morning sunlight and concrete textures"
+      }
+    }
+  ]
+}
