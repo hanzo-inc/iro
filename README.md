@@ -2,6 +2,8 @@
 
 # Iro
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzo-inc/iro&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzo-inc/iro&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzo-inc/iro&ref=main&action=deploy)
+
 Iro (`iro`, `iro-1`) is Hanzo's image generation and editing model, served from Hanzo's inference fabric at `api.hanzo.ai` under the canonical id **`iro`** (open foundation: **`zen3-image`** / [`zenlm/zen-artist`](https://github.com/zenlm/zen-artist)). It renders one image per request from a text prompt at any aspect ratio from a 9:21 portrait to a 21:9 banner, and supports image editing on `/v1/images/edits`.
 
 ```bash
